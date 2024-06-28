@@ -4,8 +4,9 @@
 
 #리액트 연습
 // npm 사용하기
-$ npm init react-app hello-react
-$ cd hello-react
+
+$ npx create-react-app <프로젝트 이름>
+$ cd my-app
 $ npm start
 
  (staging할 수 있는 목록이 뜸. git add 파일명)
