@@ -12,6 +12,10 @@ import Accommodate from './chapter_07/Accommodate';
 import ConfirmButton from './chpater_08/ConfirmButton';
 import LandingPage from './chapter09/LandingPage';
 import AttendanceBook from './chapter_10/AttendanceBook';
+import Signup from './chapter_11/SignUp';
+import Calculator from './chapter12/Calculator';
+import ProfileCard from './chapter_13/ProfileCard';
+import DarkOrLight from './chapter_14/DarkOrLight';
 
  //const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -23,7 +27,7 @@ import AttendanceBook from './chapter_10/AttendanceBook';
   // React Dom 의 render함수 사용해서 실제 화면에 렌더링
   ReactDOM.render(
     <React.StrictMode>
-        <AttendanceBook/>
+      <App/>
     </React.StrictMode>,
     document.getElementById('root')
   );
