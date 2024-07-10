@@ -2,7 +2,7 @@
  import {useNavigate} from "react-router-dom";
  import styled from "styled-components";
  import PostList from "../list/PostList";
- import Button from "../ui/button";
+ import Button from "../ui/Button";
  import data from '../data.json'
 
  const Wrapper = styled.div`
@@ -35,7 +35,7 @@
             <Container>
                 <Button
                     title="글 작성하기"
-                    onClick={(item) => {
+                    onClick={() => {
                         navigate(`/post-write}`);
                     }}
                 />

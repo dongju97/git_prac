@@ -14,7 +14,7 @@ import PostViewPage from "./mini-blog/component/page/PostViewPage";
 const MainTitleText = styled.p`
     font-size : 24px;
     font-weight : bold;
-    text-aligh : center;
+    text-align : center;
 `;
 
 function App (props){

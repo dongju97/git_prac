@@ -1,5 +1,5 @@
 import React from "react";
-import style from "styled-components";
+import styled from "styled-components";
 
 const StlyeButton = styled.button`
     padding : 8px 16px;

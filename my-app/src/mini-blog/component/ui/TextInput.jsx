@@ -18,3 +18,5 @@ function TextInput(props) {
 
     return <StyledTextare height={height} value={value} onChange={onChange}/>;
 };
+
+export default TextInput;

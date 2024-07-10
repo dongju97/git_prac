@@ -31,3 +31,5 @@ function CommentListItem(props){
         </Wrapper>
     )
 }
+
+export default CommentListItem;
